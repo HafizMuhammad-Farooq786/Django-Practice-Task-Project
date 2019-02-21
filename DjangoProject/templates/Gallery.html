@@ -1,0 +1,55 @@
+{% extends 'header_footer.html' %}
+{% load staticfiles %}
+{% block content %}
+        <div id="bodystyle">
+            <h1><span>gallery</span></h1>
+            <ul class="gallery">
+                <li>
+                    <a href="{% url 'gallerypage' %}">
+                        <img src="{% static "images/mustache1.jpg" %}" alt="Mustache Pictures 1">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache2.jpg" %}" alt="Mustache Pictures 2 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache3.jpg" %}" alt="Mustache Pictures 3 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache4.jpg" %}" alt="Mustache Pictures 4 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache5.jpg" %}" alt="Mustache Pictures 5 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache6.jpg" %}" alt="Mustache Pictures 6 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache7.jpg" %}" alt="Mustache Pictures 7 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache8.jpg" %}" alt="Mustache Pictures 8 ">
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url "gallerypage" %}">
+                        <img src="{% static "images/mustache9.jpg" %}" alt="Mustache Pictures 9 ">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'header_footer.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div id="bodystyle">
+        <h1><span>let's keep in touch</span></h1>
+        <form method="post">
+            {% csrf_token %}
+            <label>
+                <input type="text" name="fname" placeholder="Enter Name">
+            </label>
+            <label>
+                <input type="text" name="address" placeholder="Write Address Here">
+            </label>
+            <label>
+                <input type="text" name="email" placeholder="Enter Email Address">
+            </label>
+            <label>
+                <input type="text" name="phone" placeholder="Enter Phone Number">
+            </label>
+            <label>
+                <textarea name="message" placeholder="Write Message Here ....."></textarea>
+            </label>
+            <button type="submit" name="send" id="send">Submit</button>
+        </form>
+    </div>
+{% endblock %}

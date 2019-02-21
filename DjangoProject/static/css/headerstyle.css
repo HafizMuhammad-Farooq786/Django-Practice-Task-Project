@@ -1,0 +1,46 @@
+#header{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+	text-align: center;
+	max-width: 960px;
+}
+a.picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 340px;
+	margin-top: 20px;
+}
+a.picture img{
+	display: block;
+}
+div {
+	display: block;
+	margin-top: 20px;
+}
+.lis{
+	margin: 0;
+	padding-top: 55px;
+}
+.lis li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.lis li a {
+	color: black;
+	display: inline-block;
+	font-family: Arial Black;
+	font-size: 14px;
+	font-weight: normal;
+	padding-bottom: 2px;
+	text-decoration: none;
+	margin: 0;
+}
+.lis li a:hover, .lis li.list a {
+	color: #0ba39c;
+}

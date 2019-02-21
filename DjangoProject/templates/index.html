@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Template</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <br />
+    <img src="{% static "images/logo.jpg" %}" alt="logo image">
+    <br />
+    <br />
+    <form>
+        <label>Email :
+            <input type="email" name="email">
+        </label>
+        <label>Password :
+            <input type="password" name="password">
+        </label>
+        <button type="submit">Login</button>
+    </form>
+    <br/>
+
+    <h2>Check data from dictionary: </h2>
+    {{ insert_me }}
+</body>
+</html>

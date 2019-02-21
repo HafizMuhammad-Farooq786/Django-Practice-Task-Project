@@ -1,0 +1,117 @@
+body{
+	background: white;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+}
+#bodystyle{
+	text-align: center;
+	margin: 0;
+	padding-bottom: 30px;
+}
+#bodystyle #textscreen div {
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -171px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	width: 490px;
+}
+#bodystyle #textscreen {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	position: relative;
+	width: 100%;
+}
+#bodystyle #textscreen img {
+	display: inline;
+	width: 100%;
+}
+#bodystyle h1 {
+	color: white;
+	background: black;
+	display: inline;
+	font-family: Arial black;
+	font-size: 35px;
+	font-weight: normal;
+	margin-bottom: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+#bodystyle #textscreen div h2 {
+	background: white;
+	color: black;
+	display: inline-block;
+	font-family: Arial Black;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 18px;
+	padding: 23px 27px 20px;
+	text-transform: uppercase;
+}
+#bodystyle #textscreen div span {
+	background: rgb(45,45,45);
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 12px 27px;
+	font-size: 20px;
+	display: inline-block;
+}
+#bodystyle #textscreen div a {
+	background: #0ba39c;
+	color: white;
+	margin-top: 15px;
+	padding: 25px;
+	font-size: 16px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+#bodystyle #textscreen div a:hover {
+	background: #1fc3bc;
+}
+#bodystyle > ul {
+	margin-left: 250px;
+	margin-right: 250px;
+	overflow: hidden;
+	padding-top: 25px;;
+	width: 960px;
+}
+#bodystyle > ul li {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-bottom: 10px;
+	width: 300px;
+}
+#bodystyle > ul li a {
+	color: black;
+	font-family: Arial Black;
+	font-size: 22px;
+	font-weight: normal;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#bodystyle > ul li a img {
+	display: block;
+	border: 2px solid black;
+	opacity: 0.8;
+	transition: 1s;
+}
+#bodystyle > ul li a span {
+	display: block;
+	padding-top: 30px;
+}
+#bodystyle > ul li a:hover img {
+	opacity: 1.2;
+}
+

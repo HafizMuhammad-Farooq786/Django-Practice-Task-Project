@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <title> Home Mustache Enthusiast </title>
+        <link rel="icon" href="{% static "images/icons.jpg" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/headerstyle.css" %} ">
+        <link rel="stylesheet" type="text/css" href="{% static "css/bodystyle.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/textsetting.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/footerstyle.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/blog.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/form.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/gallery.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/page.css" %}">
+    </head>
+
+    <body>
+
+        <div id="header">
+            <a class="picture" href="{% url 'index' %}">
+                <img src="{% static "images/logo.jpg" %}" alt="This is logo image">
+            </a>
+            <ul class="lis">
+                <li class="active"> <a href="{% url 'index' %}">HOME</a> </li>
+                <li> <a href="{% url 'about' %}">ABOUT</a> </li>
+                <li> <a href="{% url 'gallery' %}">GALLERY</a> </li>
+                <li> <a href="{% url 'blog' %}">BLOG</a> </li>
+                <li> <a href="{% url 'contact' %}">CONTACT</a></li>
+            </ul>
+        </div>
+
+        {% block  content %}
+
+
+        {% endblock %}
+
+        <div id="footer">
+            <div>
+                <p>&copy; 2023 by Mustacchio. All rights reserved.</p>
+                <ul>
+                    <li class="tw">
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="{% static "images/icons/icon-twitter.jpg" %}" alt="Twitter icon">
+                        </a>
+                    </li>
+                    <li class="fb">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="{% static "images/icons/icon-facebook.jpg" %}" alt="Facebook icon">
+                        </a>
+                    </li>
+                    <li class="gp">
+                        <a href="http://www.googleplus.com" target="_blank">
+                            <img src="{% static "images/icons/icon-googleplus.jpg" %}" alt="Google Plus icon">
+                        </a>
+                    </li>
+                    <li class="pi">
+                        <a href="http://www.pinterest.com" target="_blank">
+                            <img src="{% static "images/icons/icon-pinterest.jpg" %}" alt="Pinterest icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,35 @@
+#bodystyle h1 span {
+	background: black;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#body > div {
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+#bodystyle > div img {
+	border: 2px solid #292929;
+	margin-top: 24px;
+}
+#bodystyle > div #handp {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: 560px;
+}
+#bodystyle > div #handp h2 {
+	background: black;
+	color: white;
+	display: inline-block;
+	font-family: Arial Black;
+	font-size: 25px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 25;
+	padding-right: 25;
+}
+#bodystyle > div #handp p {
+	line-height: 25px;
+}

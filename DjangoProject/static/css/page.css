@@ -1,0 +1,29 @@
+#bodystyle h1 span {
+	background: black;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#bodystyle > div img {
+	border: 2px solid #292929;
+	margin: 24px 0 0;
+	padding: 0;
+}
+#bodystyle > div #handp {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: 560px;
+}
+#bodystyle > div #handp h2 {
+	margin-bottom: 30px;
+	font-family: Arial Black;
+	font-size: 25px;
+	font-weight: normal;
+}
+#bodystyle > div #handp p {
+	margin-bottom: 30px;
+}
+p{
+	color: black;
+	line-height: 25px;
+}

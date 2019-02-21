@@ -1,0 +1,23 @@
+{% extends 'header_footer.html' %}
+{% load staticfiles %}
+{% block content %}
+        <div id="bodystyle">
+            <div id="textscreen">
+                <img src="{% static "images/the-beacon.jpg" %}" alt="Here is the Beacon image">
+                <div>
+                    <h2>the beacon to all mankind</h2>
+                    <span>Our website templates are created with </span>
+                    <span>inspiration, checked for quality and originality</span>
+                    <span>and meticulously sliced and coded.</span>
+                    <a href="{% url 'index' %}" class="more"> READ MORE </a>
+                </div>
+            </div>
+            <ul>
+                <li> <a href="{% url 'gallery' %}"><img src="{% static "images/the-father.jpg" %}" alt="The Father"><span>THE FATHER</span></a></li>
+                <li><a href="{% url 'gallery' %}"><img src="{% static "images/the-actor.jpg" %}" alt="The Actor"><span>THE ACTOR</span></a></li>
+                <li><a href="{% url 'gallery' %}"><img src="{% static "images/the-nerd.jpg" %}" alt="The Nerd"><span>THE MERD</span></a></li>
+            </ul>
+        </div>
+
+{% endblock %}
+
